@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_URL1 = "https://api-inference.huggingface.co/models/facebook/detr-resnet-50";
 const API_URL2 = "https://api-inference.huggingface.co/models/google/vit-base-patch16-224";
-const API_TOKEN = "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";
+const API_TOKEN = "YOUR API TOKEN";
 
 function ModelForm({ apiUrl, apiToken, images, setImages, label, setLabel, loading, setLoading, error, setError, modelType }) {
     const canvasRefs = useRef([]);
